@@ -4,8 +4,8 @@ tf.disable_eager_execution()
 import numpy as np
 import string
 import os
-import demo1.generate_captcha as generate_captcha
-import demo1.captcha_model as captcha_model
+import captcha_tensorflow_apiv1.generate_captcha as generate_captcha
+import captcha_tensorflow_apiv1.captcha_model as captcha_model
 tf.device('/GPU:0')
 #os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 if __name__ == '__main__':
